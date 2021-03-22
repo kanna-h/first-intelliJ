@@ -17,7 +17,7 @@ public class CalculationTest {
 
 
     @Test
-    public void sub() {
+    public void testSub() {
         int x = 8; int y = 3;
         when(calc.sub(x, y)).thenReturn(5);
         assertEquals(5, calc.sub(x, y));
