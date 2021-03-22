@@ -9,9 +9,9 @@ public class CalculationTest {
     @Test
     public void testAdd() {
         System.out.println("========Junit test=========");
-        int a = 4; int b = 6;
-        when(calc.add(4, 6)).thenReturn(10);
-        assertEquals(10, calc.add(a, b));
+        int a = 2; int b = 4;
+        when(calc.add(a, b)).thenReturn(6);
+        assertEquals(6, calc.add(a, b));
         verify(calc).add(a, b);
     }
 }
