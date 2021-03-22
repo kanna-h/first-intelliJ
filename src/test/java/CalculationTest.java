@@ -14,4 +14,13 @@ public class CalculationTest {
         assertEquals(10, calc.add(a, b));
         verify(calc).add(a, b);
     }
+
+
+    @Test
+    public void sub() {
+        int x = 8; int y = 3;
+        when(calc.sub(x, y)).thenReturn(5);
+        assertEquals(5, calc.sub(x, y));
+        verify(calc).sub(8, 3);
+    }
 }
