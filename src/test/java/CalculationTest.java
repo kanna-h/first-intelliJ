@@ -18,10 +18,10 @@ public class CalculationTest {
 
     @Test
     public void testSub() {
-        int x = 8; int y = 3;
-        when(calc.sub(x, y)).thenReturn(5);
-        assertEquals(5, calc.sub(x, y));
-        verify(calc).sub(8, 3);
+        int x = 6; int y = 3;
+        when(calc.sub(x, y)).thenReturn(3);
+        assertEquals(3, calc.sub(x, y));
+        verify(calc).sub(6, 3);
     }
 }
 
