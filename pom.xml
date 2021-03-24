@@ -45,7 +45,6 @@
                 <version>2.5.2</version>
             </plugin>
         </plugins>
-
     </build>
 
     <profiles>
@@ -57,5 +56,17 @@
         </profile>
     </profiles>
 
+    <repositories>
+        <repository>
+            <id>myMavenRepo.read</id>
+            <url>https://mymavenrepo.com/repo/PwQsPUHA5w6upMDcUfOZ/</url>
+        </repository>
+    </repositories>
 
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/gl13LL1aJKq7hPj9K51K/</url>
+        </repository>
+    </distributionManagement>
 </project>
