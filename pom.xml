@@ -59,14 +59,14 @@
     <repositories>
         <repository>
             <id>myMavenRepo.read</id>
-            <url>https://mymavenrepo.com/repo/PwQsPUHA5w6upMDcUfOZ/</url>
+            <url>file:D:/Project/MavenArtifactory/prod</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
-            <url>https://mymavenrepo.com/repo/gl13LL1aJKq7hPj9K51K/</url>
+            <url>file:D:/Project/MavenArtifactory/prod</url>
         </repository>
     </distributionManagement>
 </project>
