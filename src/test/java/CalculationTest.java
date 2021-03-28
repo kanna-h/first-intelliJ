@@ -23,5 +23,10 @@ public class CalculationTest {
         assertEquals(3, calc.sub(x, y));
         verify(calc).sub(6, 3);
     }
+
+    public void dummy(){
+        System.out.println("**************DUMMY TEST CASE ADDED************");
+        assertEquals(5, 5);
+    }
 }
 
